@@ -1,0 +1,1 @@
+This project is made for a personal client.
