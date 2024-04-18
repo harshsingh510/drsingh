@@ -187,7 +187,7 @@ const DoctorBooking = () => {
                         disabled={current === 0 ? (selectTime ? false : true) : IsdDisable || !selectTime}
                         onClick={() => next()}>Next</Button>)}
 
-                    {current === steps.length - 1 && (<Button type="primary" disabled={IsConfirmDisable} loading={createIsLoading} onClick={handleConfirmSchedule}>Confirm</Button>)}
+                    {current === steps.length-1 && (<Button type="primary" disabled={IsConfirmDisable} loading={createIsLoading} onClick={handleConfirmSchedule}>Confirm</Button>)}
                     {current > 0 && (<Button style={{ margin: '0 8px', }} onClick={() => prev()} >Previous</Button>)}
                 </div>
             </div>

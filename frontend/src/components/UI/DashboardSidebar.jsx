@@ -2,6 +2,7 @@ import React from 'react';
 import img from '../../images/avatar.jpg';
 import './DashboardSidebar.css';
 import { Link, NavLink } from 'react-router-dom';
+import moment from 'moment';
 import useAuthCheck from '../../redux/hooks/useAuthCheck';
 import {
     FaTable,
@@ -37,8 +38,8 @@ const DashboardSidebar = () => {
                             <div className='profile-details'>
                                 <h5 className='mb-0'>{data?.firstName + " " + data?.lastName}</h5>
                                 <div className='mt-2'>
-                                    <p className=' form-text m-0'>24 Jul 1983, 38 Years</p>
-                                    <p className=' form-text m-0'> New Yourk , USA</p>
+                                    <p className=' form-text m-0'>{moment().diff(moment(data?.dateOfBirth), 'years')} Years</p>
+                                    <p className=' form-text m-0'> {data?.city + ' , ' + data?.state}</p>
                                     <p className=' form-text m-0'>{data?.email}</p>
                                 </div>
                             </div>

@@ -27,7 +27,7 @@ const Contact = () => {
     return (
         <>
             <Header />
-            <SubHeader title="Contact us" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing." />
+            <SubHeader title="Contact us" subtitle="You can reach out to us by filing this form, or visting our office." />
             <section id="contact" className="contact mt-5 mb-5">
                 <div className="container" style={{ marginTop: 80, marginBottom: 120 }}>
                     <div className="row">
@@ -38,7 +38,7 @@ const Contact = () => {
                                     <FaLocationArrow className='icon' />
                                     <div>
                                         <h4>Location:</h4>
-                                        <p>1212 Dhaka, Kazi Nozrul Avenur, Sylhet, Bangladesh 03214</p>
+                                        <p>Katihar Medical College Rd, Dalan East, Katihar, Bihar 854109</p>
                                     </div>
                                 </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
                                     <FaEnvelope className='icon' />
                                     <div>
                                         <h4>Email:</h4>
-                                        <p>harsh510official@gmail.com</p>
+                                        <p>drnityasingh@gmail.com</p>
                                     </div>
                                 </div>
 
@@ -54,7 +54,7 @@ const Contact = () => {
                                     <FaPhoneAlt className='icon' />
                                     <div>
                                         <h4>Call:</h4>
-                                        <p>+88 01751 040425</p>
+                                        <p>+91 99999 99999</p>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +110,8 @@ const Contact = () => {
                 <div>
                     <div className="container">
                         {/* eslint-disable-next-line */}
-                        <iframe style={{ border: 0, width: "100%", height: "350px" }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                        {/* <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+                        <iframe style={{ border: 0, width: "100%", height: "350px" }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.6435316538245!2d87.54484197419082!3d25.583523777464286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39faab2df8540e45%3A0x19c6317927622a28!2sKatihar%20Medical%20College%20hospital!5e0!3m2!1sen!2sin!4v1713457147112!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>

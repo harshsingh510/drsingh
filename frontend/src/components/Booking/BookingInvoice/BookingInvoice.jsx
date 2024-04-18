@@ -46,7 +46,7 @@ const BookingInvoice = () => {
                                     <strong className="customer-text">Invoice From</strong>
                                     <p className="invoice-details invoice-details-two">
                                         Dr. {data?.appointment?.doctor?.firstName ? `${data?.appointment?.doctor?.firstName} ${data?.appointment?.doctor?.lastName}`: ' Of DoctorOnCall'} <br />
-                                        {data?.appointment?.doctor?.address ? data?.appointment?.doctor?.address : "Sylhet, Dhaka ,BD,3214"}, {data?.appointment?.doctor?.city && data?.appointment?.doctor?.city},<br />
+                                        {data?.appointment?.doctor?.address ? data?.appointment?.doctor?.address : "Patna, Bihar, India 801103"}, {data?.appointment?.doctor?.city && data?.appointment?.doctor?.city},<br />
                                         {data?.appointment?.doctor?.country && data?.appointment?.doctor?.country} <br />
                                     </p>
                                 </div>
@@ -86,7 +86,7 @@ const BookingInvoice = () => {
                                             <tr>
                                                 <th>Description</th>
                                                 <th className="text-center">Doctor Fee</th>
-                                                <th className="text-center">VAT</th>
+                                                <th className="text-center">GST</th>
                                                 <th className="text-right">Total</th>
                                             </tr>
                                         </thead>

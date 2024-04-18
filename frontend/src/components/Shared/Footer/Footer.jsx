@@ -19,9 +19,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-about-content">
                   <p className="form-text" style={{ maxWidth: 200 }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                   A personalised medical platform where patients can keep track of there medical history, consult with the expert doctors, while being in there home.{" "}
                   </p>
                 </div>
               </div>
@@ -88,9 +86,9 @@ const Footer = () => {
               </div>
             </div> */}
 
-            <div className="col-6 col-md-6 col-lg-4">
+            <div className="col-6 col-md-6 col-lg-3">
               <div className="footer-widget footer-contact">
-                <h2 className="footer-title mt-3 mt-md-0">Contact Us</h2>
+                <h2 className="footer-title ">Contact Us</h2>
                 <div className="footer-contact-info">
                   <div className="footer-address">
                     <span>
@@ -98,17 +96,17 @@ const Footer = () => {
                     </span>
                     <p>
                       {" "}
-                      121, Mirzapure Union office,
-                      <br /> Sylhet, Bangladesh 03214{" "}
+                      Katihar Medical College Rd, Dalan East, 
+                      <br /> Katihar, Bihar 854109{" "}
                     </p>
                   </div>
                   <p>
                     <i className="fas fa-phone-alt"></i>
-                    +88 017 51 040425
+                    +91 99999 99999
                   </p>
                   <p className="mb-0">
                     <i className="fas fa-envelope"></i>
-                    harsh510official@gmail.com
+                   drnityasingh@gmail.com
                   </p>
                 </div>
               </div>

@@ -12,7 +12,7 @@ const CheckoutPage = ({ handleChange, selectValue, isCheck, setIsChecked, data, 
     let price = data?.price ? data.price : 60;
     let doctorImg = data?.img ? data?.img : img
 
-    const vat = (15 / 100) * (Number(price))
+    const vat = (5 / 100) * (Number(price))
     return (
         <div className="container mt-5">
             <div className="row">
@@ -132,15 +132,15 @@ const CheckoutPage = ({ handleChange, selectValue, isCheck, setIsChecked, data, 
                                 <li>Time <span>{selectTime}</span></li>
                             </ul>
                             <ul className="booking-fee">
-                                <li>Consulting Fee <span>${price}</span></li>
-                                <li>Booking Fee <span>$10</span></li>
-                                <li>Vat (Including 15%) <span>$ {vat}</span></li>
+                                <li>Consulting Fee <span>₹{price}</span></li>
+                                <li>Booking Fee <span>₹50</span></li>
+                                <li>GST (Including 5%) <span>₹ {vat}</span></li>
                             </ul>
 
                             <ul className="booking-total">
                                 <li className='d-flex justify-content-between'>
                                     <span className='fw-bold'>Total</span>
-                                    <span className="total-cost" style={{ color: '#1977cc' }}>${(Number(price) + 10 + vat)}</span>
+                                    <span className="total-cost" style={{ color: '#1977cc' }}>₹{(Number(price) + 50 + vat)}</span>
                                 </li>
                             </ul>
                         </div>

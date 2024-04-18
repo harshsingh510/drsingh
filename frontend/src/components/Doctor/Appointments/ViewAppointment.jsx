@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef } from 'react';
 import { useParams } from 'react-router-dom'
 import { useGetSingleAppointmentQuery } from '../../../redux/api/appointmentApi';
 import Header from '../../Shared/Header/Header';
@@ -84,8 +84,8 @@ const ViewAppointment = () => {
                             <p className="mb-1 form-text">{data?.patient?.city + ' , ' + data?.patient?.state + ' , ' + data?.patient?.country}</p>
 
                             <div className='mt-2'>
-                                <p>Reason for Visit - <span className='text-warning'>{data?.reasonForVisit}</span></p>
-                                <p className='text-warning'>{data?.description}</p>
+                                <p>Reason for Visit - <span className='text-warning'>{data?.patient?.reasonForVisit}</span></p>
+                                <p className='text-warning'>{data?.patient?.description}</p>
                             </div>
                         </div>
                     </div>
