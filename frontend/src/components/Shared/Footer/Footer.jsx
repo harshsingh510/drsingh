@@ -137,7 +137,7 @@ const Footer = () => {
                     <div className="copyright-text">
                       <p className="mb-0">
                         <a
-                          href="https://harshsingh-portfolio.vercel.app/"
+                          href="https://harshsingh-portfolio.vercel.app/" rel="noreferrer"
                           target="_blank"
                         >
                           <div className="copyRight text-center">
