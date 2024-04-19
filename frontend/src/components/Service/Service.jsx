@@ -21,7 +21,7 @@ const Service = () => {
   return (
     <>
       <Header />
-      <SubHeader title="Service" subtitle="Services offered by us and our specialist team." />
+      <SubHeader title="Service" subtitle="Services offered by us and our specialist team."/>
 
       <div className="container" style={{ marginTop: 200, marginBottom: 100 }}>
         <div className="row">
