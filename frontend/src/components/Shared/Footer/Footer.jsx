@@ -58,34 +58,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* <div className="col-6 col-md-6 col-lg-3">
-              <div className="footer-widget footer-menu">
-                <h2 className="footer-title">For Doctors</h2>
-                <ul>
-                  <li>
-                    <Link to={"/"}>
-                      <FaAngleDoubleRight className="icon" /> Appointments
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/login"}>
-                      <FaAngleDoubleRight className="icon" /> Login
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/register"}>
-                      <FaAngleDoubleRight className="icon" /> Register
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/dashboard"}>
-                      <FaAngleDoubleRight className="icon" /> Doctor Dashboard
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-
             <div className="col-6 col-md-6 col-lg-4">
               <div className="footer-widget footer-contact">
                 <h2 className="footer-title ">Contact Us</h2>
