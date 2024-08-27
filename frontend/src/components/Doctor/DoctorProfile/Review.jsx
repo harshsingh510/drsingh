@@ -52,7 +52,7 @@ const Review = ({ doctorId }) => {
     }, [createIsLoading, createTsError, createError, createIsSuccess])
 
     let content = null;
-    if (!isLoading && isError) content = <div>Something Went Wrong !</div>
+    if (!isLoading && isError) content = <div>Sorry, Server Down!   !</div>
     if (!isLoading && !isError && data?.length === 0) content = <div>Empty</div>
     if (!isLoading && !isError && data?.length > 0) content =
         <>

@@ -33,7 +33,7 @@ const TrackAppointment = () => {
 
     // What to render
     let content = null;
-    if (!isLoading && isError) content = <div>Something Went Wrong!</div>
+    if (!isLoading && isError) content = <div>Sorry, Server Down!  !</div>
     if (!isLoading && !isError && data?.id) content = <TrackDetailPage data={data} setShowInfo={setShowInfo} />
     return (
         <>

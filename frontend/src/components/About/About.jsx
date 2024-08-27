@@ -19,7 +19,7 @@ const About = () => {
     const doctors = doctorData?.doctors;
 
     let doctorContent = null;
-    if (!DoctorIsLoading && doctorIsError) doctorContent = <div>Something Went Wrong !</div>
+    if (!DoctorIsLoading && doctorIsError) doctorContent = <div>Sorry, Server Down!   !</div>
     if (!DoctorIsLoading && !doctorIsError && doctors?.length === 0) doctorContent = <div><Empty /></div>
     if (!DoctorIsLoading && !doctorIsError && doctors?.length > 0) doctorContent =
         <>
@@ -37,7 +37,7 @@ const About = () => {
         </>
 
     let content = null;
-    if (!isLoading && isError) content = <div>{message.error('Something went Wrong!')}</div>
+    if (!isLoading && isError) content = <div>{message.error('Sorry, Server Down!  !')}</div>
     if (!isLoading && !isError && blogData?.length === 0) content = <Empty />
     if (!isLoading && !isError && blogData?.length > 0) content =
         <>

@@ -11,7 +11,7 @@ const Blog = () => {
     let content = null;
 
     if (isLoading) content = <div>Loading...</div>
-    if (!isLoading && isError) content = <div>{message.error('something went Wrong!')}</div>
+    if (!isLoading && isError) content = <div>{message.error('Sorry, Server Down!  !')}</div>
     if (!isLoading && !isError && blogData?.length === 0) content = <Empty />
     if (!isLoading && !isError && blogData?.length > 0) content =
         <>

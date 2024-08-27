@@ -76,7 +76,7 @@ const DoctorBooking = () => {
 
     let dContent = null;
     if (dIsLoading) dContent = <div>Loading ...</div>
-    if (!dIsLoading && dIsError) dContent = <div>Something went Wrong!</div>
+    if (!dIsLoading && dIsError) dContent = <div>Sorry, Server Down!  !</div>
     if (!dIsLoading && !dIsError && time.length === 0) dContent = <Empty children="Doctor Is not Available" />
     if (!dIsLoading && !dIsError && time.length > 0) dContent =
         <>
@@ -91,7 +91,7 @@ const DoctorBooking = () => {
 
     //What to render
     let content = null;
-    if (!isLoading && isError) content = <div>Something Went Wrong!</div>
+    if (!isLoading && isError) content = <div>Sorry, Server Down!  !</div>
     if (!isLoading && !isError && data?.id === undefined) content = <Empty />
     if (!isLoading && !isError && data?.id) content =
         <>

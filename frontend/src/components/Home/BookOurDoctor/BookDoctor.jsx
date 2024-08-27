@@ -35,7 +35,7 @@ const BookDoctor = () => {
 
 	// what to render 
 	let content = null;
-	if (!isLoading && isError) content = <div>Something Went Wrong !</div>
+	if (!isLoading && isError) content = <div>Sorry, Server Down!   !</div>
 	if (!isLoading && !isError && doctors?.length === 0) content = <div>Empty</div>
 	if (!isLoading && !isError && doctors?.length > 0) content =
 		<>

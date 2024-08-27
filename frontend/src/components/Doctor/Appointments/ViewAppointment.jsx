@@ -16,7 +16,7 @@ const ViewAppointment = () => {
     const { data, isLoading, isError } = useGetSingleAppointmentQuery(id);
 
     let content = null;
-    if (!isLoading && isError) content = <div>Something Went Wrong!</div>
+    if (!isLoading && isError) content = <div>Sorry, Server Down!  !</div>
     if (isLoading && !isError) content = <h2>Loading...</h2>
     if (!isLoading && !isError && data?.id) content =
         <>

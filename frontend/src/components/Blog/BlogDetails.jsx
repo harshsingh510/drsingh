@@ -16,7 +16,7 @@ const BlogDetails = () => {
     const { data, isLoading, isError } = useGetSingleBlogQuery(id);
 
     let content = null;
-    if (!isLoading && isError) content = <div>{message.error('Something went Wrong!')}</div>
+    if (!isLoading && isError) content = <div>{message.error('Sorry, Server Down!  !')}</div>
     if (!isLoading && !isError && data?.id === undefined) content = <Empty />
     if (!isLoading && !isError && data?.id) content =
         <div className="card shadow-sm text-center border-0 rounded-bottom">
