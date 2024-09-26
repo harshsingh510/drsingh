@@ -160,7 +160,7 @@ const SignUp = ({ setSignUp }) => {
                     defaultValue='patient'
                 >
                     <option value="patient">Patient</option>
-                    {/* <option value="doctor">Doctor</option> */}
+                    <option value="doctor">Doctor</option>
                 </select>
             </div>
             {error.length && <h6 className="text-danger text-center">{error}</h6>}
