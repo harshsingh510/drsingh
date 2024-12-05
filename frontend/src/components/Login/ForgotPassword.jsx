@@ -47,10 +47,10 @@ const ForgotPassword = () => {
                                     <Input.Password />
                                 </Form.Item>
 
-                                <Form.Item label="Re-enter Password" name="rePassword" rules={[{ required: true, message: 'Please re-enter your password!' }]}>
+                                <Form.Item label="Re-enter Password" name="rePassword" rules={[{ required: true, message: 'Please re-enter your password!'}]}>
                                     <Input.Password />
                                 </Form.Item>
-
+                                
                                 <Form.Item>
                                     <Button type="primary" disabled={isLoading} htmlType="submit" loading={isLoading}>
                                         Submit

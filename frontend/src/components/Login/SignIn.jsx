@@ -56,7 +56,7 @@ const SignIn = ({ handleResponse }) => {
                     ?
                     <form className="sign-in-form" onSubmit={onHandleForgotPassword}>
                         <h2 className="title">Forgot Password</h2>
-                        <div>To Forgot Your Password Please Enter your email</div>
+                        <div>Please Enter your email</div>
                         <div className="input-field">
                             <span className="fIcon"><FaEnvelope /></span>
                             <input value={forgotEmail !== undefined && forgotEmail} onChange={(e) => setForgotEmail(e.target.value)} placeholder="Enter Your Email" type="email" required />

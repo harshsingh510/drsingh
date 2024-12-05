@@ -19,7 +19,7 @@ const contactUs = async (payload: ContactPayload): Promise<{ message: string }> 
     try {
         const mailOptions = {
             from: `"${firstName + ' ' + lastName}" <${email}>`,
-            to: 'harsh510official+doctor@gmail.com',
+            to: 'sdrnitya@gmail.com',
             subject: subject,
             text: text
         };

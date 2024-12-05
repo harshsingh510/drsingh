@@ -72,7 +72,7 @@ const getAllDoctors = async (filters: IDoctorFilters, options: IOption): Promise
     const { limit, page, skip } = calculatePagination(options);
     const { searchTerm, max, min, specialist, ...filterData } = filters;
 
-    const andCondition = [];
+    const andCondition = []; 
     if (searchTerm) {
         andCondition.push({
             OR: DoctorSearchableFields.map((field) => ({
