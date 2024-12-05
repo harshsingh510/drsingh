@@ -103,31 +103,31 @@ const DashboardSidebar = () => {
                                     <span>My Patients</span>
                                 </NavLink>
                             </li>
-                            <li>
+                            {/* <li>
                                 <NavLink to={'/dashboard/prescription'} activeClassName="active" end>
                                     <FaUserInjured className="icon" />
                                     <span>Prescription</span>
                                 </NavLink>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <NavLink to={'/dashboard/schedule'} activeClassName="active" end>
                                     <FaCalendarDay className="icon" />
                                     <span>Schedule Timings</span>
                                 </NavLink>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <NavLink to={'/dashboard/invoices'} activeClassName="active" end>
                                     <FaHourglassStart className="icon" />
                                     <span>Invoices</span>
                                 </NavLink>
-                            </li>
+                            </li> */}
 
-                            <li>
+                            {/* <li>
                                 <NavLink to={'/dashboard/reviews'} activeClassName="active" end>
                                     <FaRegStar className="icon" />
                                     <span>Reviews</span>
                                 </NavLink>
-                            </li>
+                            </li> */}
 
                             <li>
                                 <NavLink to={'/dashboard/profile-setting'} activeClassName="active" end>
@@ -136,12 +136,12 @@ const DashboardSidebar = () => {
                                 </NavLink>
                             </li>
 
-                            <li>
+                            {/* <li>
                                 <NavLink to={'/dashboard/blogs'} activeClassName="active" end>
                                     <FaBlog className="icon" />
                                     <span>Blogs (Will move to Admin)</span>
                                 </NavLink>
-                            </li>
+                            </li> */}
 
                             <li>
                                 <NavLink to={'/dashboard/change-password'} activeClassName="active" end>

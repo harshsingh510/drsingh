@@ -32,11 +32,11 @@ const DoctorProfile = () => {
         //     label: 'Locations',
         //     children: <Location />,
         // },
-        {
-            key: '3',
-            label: 'Reviews',
-            children: <Review doctorId={id}/>,
-        },
+        // {
+        //     key: '3',
+        //     label: 'Reviews',
+        //     children: <Review doctorId={id}/>,
+        // },
         {
             key: '4',
             label: 'Availability',

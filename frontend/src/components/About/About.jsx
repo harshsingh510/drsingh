@@ -81,11 +81,11 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
+            {/* <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row">
                     {content}
                 </div>
-            </div>
+            </div> */}
 
             <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row align-items-center">

@@ -21,7 +21,7 @@ const Home = () => {
             <Service />
             <ClinicAndSpecialities />
             {/* <BookDoctor /> */}
-            <Blog />
+            {/* <Blog /> */}
             <Availabe />
             <OurDoctors/>
             {/* <Testimonial /> */}
